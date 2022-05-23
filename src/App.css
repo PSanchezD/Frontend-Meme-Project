@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+
+body{
+  margin: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* nav bar section-----------------*/
+.nav-c{
+  background-color: rgb(235, 70, 70);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-r{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.nav-logo{
+  font-size: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+
+/*Search Bar section --------------*/
+.search-c{
+  margin: 20px 300px 0px 300px;
+}
+.search{
+  display: flex;
+}
+.search input{
+  height: 50px;
+  padding: 0px 10px 0px 40px;
+  width: 100%;
+  border: 1px solid rgb(235, 70, 70);
+  box-shadow: 0px 0px 5px red;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.search button{
+  border: none;
+  background-color:rgb(235, 70, 70);
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Homepage section ------------------------*/
+
+.home-c{
+  background-color: #333333;
+  margin: 20px 300px 20px 300px;
+  height: 500px;
+}
+
+/*Footer section ----------*/
+
+.Footer-c{
+  background-color: #333333;
+  color: wheat;
 }
