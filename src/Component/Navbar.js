@@ -4,7 +4,7 @@ function Nav(){
         <>
         <div className="nav-c">
             <div className="nav-r">
-                <div className="nav-logo">logo</div>
+                <div className="nav-logo">MEME STAR</div>
             </div>
         </div>
         </>

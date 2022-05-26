@@ -5,7 +5,7 @@ body{
 
 /* nav bar section-----------------*/
 .nav-c{
-  background-color: rgb(235, 70, 70);
+  background-color: #ffad33;
 }
 .nav-r{
   display: flex;
@@ -34,7 +34,7 @@ body{
 }
 .search button{
   border: none;
-  background-color:rgb(235, 70, 70);
+  background-color:#995c00;
   margin-left: 10px;
   border-radius: 10px;
   padding: 10px;
@@ -43,7 +43,7 @@ body{
 /* Homepage section ------------------------*/
 
 .home-c{
-  background-color: #333333;
+  background-color: #995c00;
   margin: 20px 300px 20px 300px;
   height: 500px;
 }
@@ -53,4 +53,24 @@ body{
 .Footer-c{
   background-color: #333333;
   color: wheat;
+}
+.Footer-r{
+  display: flex;
+  justify-content: center;
+}
+.Footer-r-2{
+  display: flex;
+  justify-content: center;
+}
+
+/*Card section ------------------*/
+.card-c{
+  background-color: #331f00;
+  margin: 30px 80px 0px 80px;
+  width: 400px;
+  height: 300px;
+  color: white;
+}
+.home-c{
+  display: flex;
 }

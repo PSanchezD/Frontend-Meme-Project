@@ -1,18 +1,18 @@
 
-export const Test=[
+export const Test = [
     {
         id:"1",
         img:"img",
-        Disscription:"text of someing"
+        Discription:"text of someing"
     },
     {
         id:"2",
         img:"img",
-        Disscription:"text someing"
+        Discription:"text someing"
     },
     {
         id:"3",
         img:"img",
-        Disscription:" of someing"
+        Discription:" of someing"
     },
 ]
