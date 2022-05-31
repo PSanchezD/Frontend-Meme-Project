@@ -35,5 +35,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/PSanchezD/Frontend-Meme-Project.git",
+  "author": "pedro sanchez <pedrosanchez707@gmail.com>",
+  "license": "MIT"
 }
